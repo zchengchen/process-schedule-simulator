@@ -1,0 +1,93 @@
+:root {
+    --up_height: 600px;
+    --below_height: 200px;
+}
+
+body {
+    margin: 1px;
+    text-align: center;
+}
+
+.ds_input_comp {
+    font-size: 16px;
+    height: 30px;
+    padding: 0;
+    margin: 5px;
+}
+
+.other_input_comp {
+    width: 30%;
+    font-size: 16px;
+    height: 30px;
+    padding: 0;
+    margin: 5px;
+}
+
+.text_label {
+    text-align: right;
+    white-space: nowrap;
+    padding: 8px;
+}
+
+.text_label input {
+    overflow: hidden;
+    width: 70%;
+    padding: 0 .625em;
+}
+
+.l1_title {
+    text-align: left;
+    background-color: #7ebefe;
+    border: 2px solid #ffffff;
+    padding: 8px;
+}
+
+.l2_title {
+    text-align: left;
+    background-color: #d5edfe;
+    color: #117be6;
+    border: 2px solid #ffffff;
+    padding: 8px;
+}
+
+#display_btn {
+    background-color: #d5edfe;
+    color: #117be6;
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    margin-top: 220px;
+    border: 0;
+}
+
+#view {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#control_panel {
+    width: 20%;
+    height: var(--up_height);
+    border: 2px solid #ffffff;
+}
+
+#project_view {
+    width: 50%;
+    text-align: left;
+    height: var(--up_height);
+    border: 2px solid #ffffff;
+}
+
+#link_board {
+    width: 30%;
+    height: var(--up_height);
+    border: 2px solid #ffffff;
+}
+
+#footer {
+    clear:both;
+    height: var(--below_height);
+    padding: 10px;
+    border: 2px solid #ffffff;
+}
